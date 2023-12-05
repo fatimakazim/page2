@@ -201,21 +201,21 @@ function draw() {
 
 // Functions to go to different websites when the buttons are pressed
 function goToWebsiteNorth() {
-    window.location.href = "http://127.0.0.1:5500/valley-page/index.html";
+    window.location.href = "https://fatimakazim.github.io/valley-page/";
     
    
 }
 
 function goToWebsiteSouth() {
-    window.location.href = "http://127.0.0.1:5500/meadow.page/";
+    window.location.href = "https://fatimakazim.github.io/meadow.page/";
 }
 
 function goToWebsiteEast() {
-    window.location.href = 'http://127.0.0.1:5500/culture.page/';
+    window.location.href = 'https://fatimakazim.github.io/culture.page/';
 }
 
 function goToWebsiteWest() {
-    window.location.href = 'http://127.0.0.1:5500/wildlife.page/';
+    window.location.href = 'https://fatimakazim.github.io/wildlife.page/';
 }  
 function windowResized() {
     resizeCanvas(windowWidth, windowHeight);

@@ -66,15 +66,15 @@ function setup() {
     westButton.mousePressed(goToWebsiteWest);
 }
 function styleButton(button) {
-    // Rest of your styleButton function remains unchanged
+    // 
 }
 
 
 function styleButton(button) {
     button.style('background-color', '#254726CC'); /* background color */
     button.style('color', '#fff'); /* Text color */
-    button.style('padding', '15px 30px'); /* Adjust padding as needed */
-    button.style('font-size', '1em'); /* Adjust font size as needed */
+    button.style('padding', '15px 30px'); /* padding  */
+    button.style('font-size', '1em'); /* font size  */
     button.style('border', 'none');
     button.style('border-radius', '10px'); /* Rounded corners */
     button.style('cursor', 'pointer');
@@ -90,7 +90,7 @@ function draw() {
     x1 -= scrollSpeedX1;
     y1 -= scrollSpeedY1;
 
-    // Draw the scrolling collage for img1
+    //  scrolling collage for img1
     push();
     translate(x1, y1);
     for (let i = 0; i < repetitions; i++) {
@@ -103,7 +103,7 @@ function draw() {
     }
     pop();
 
-    // Adjust scroll speed based on mouse position for img2
+    // scroll speed based on mouse position for img2
     let scrollSpeedX2 = map(mouseX, 0, width, scrollSpeed2, -scrollSpeed2);
     let scrollSpeedY2 = map(mouseY, 0, height, scrollSpeed2, -scrollSpeed2);
     x2 -= scrollSpeedX2;
@@ -116,7 +116,7 @@ function draw() {
         for (let j = 0; j < repetitions; j++) {
             let sx2 = img2.width;
             let sy2 = img2.height;
-            let spacing = 100; // Adjust the spacing between repetitions
+            let spacing = 100; //  the spacing between repetitions
       image(img2, i * (sx2 + spacing), j * (sy2 + spacing), sx2, sy2);
         }
     }
@@ -128,45 +128,45 @@ function draw() {
     x3 -= scrollSpeedX3;
     y3 -= scrollSpeedY3;
 
-    // Draw the scrolling collage for img3
+    // the scrolling collage for img3
     push();
     translate(x3, y3);
     for (let i = 0; i < repetitions; i++) {
         for (let j = 0; j < repetitions; j++) {
             let sx3 = img3.width;
             let sy3 = img3.height;
-            let spacing = 100; // Adjust the spacing between repetitions
+            let spacing = 100; // the spacing between repetitions
       image(img3, i * (sx3 + spacing), j * (sy3 + spacing), sx3, sy3);
         }
     }
     pop();
 
-    // Adjust scroll speed based on mouse position for img4
+    // scroll speed based on mouse position for img4
     let scrollSpeedX4 = map(mouseX, 0, width, scrollSpeed4, -scrollSpeed4);
     let scrollSpeedY4 = map(mouseY, 0, height, scrollSpeed4, -scrollSpeed4);
     x4 -= scrollSpeedX4;
     y4 -= scrollSpeedY4;
 
-    // Draw the scrolling collage for img4
+    // the scrolling collage for img4
     push();
     translate(x4, y4);
     for (let i = 0; i < repetitions; i++) {
         for (let j = 0; j < repetitions; j++) {
             let sx4 = img4.width;
             let sy4 = img4.height;
-            let spacing = 100; // Adjust the spacing between repetitions
+            let spacing = 100; // the spacing between repetitions
       image(img4, i * (sx4 + spacing), j * (sy4 + spacing), sx4, sy4);
         }
     }
     pop();
 
-    // Adjust scroll speed based on mouse position for img5
+    //  scroll speed based on mouse position for img5
     let scrollSpeedX5 = map(mouseX, 0, width, scrollSpeed5, -scrollSpeed5);
     let scrollSpeedY5 = map(mouseY, 0, height, scrollSpeed5, -scrollSpeed5);
     x5 -= scrollSpeedX5;
     y5 -= scrollSpeedY5;
 
-    // Draw the scrolling collage for img5
+    //  the scrolling collage for img5
     push();
     translate(x5, y5);
     for (let i = 0; i < repetitions; i++) {
@@ -179,20 +179,20 @@ function draw() {
     }
     pop();
 
-    // Adjust scroll speed based on mouse position for img6
+    //  scroll speed based on mouse position for img6
     let scrollSpeedX6 = map(mouseX, 0, width, scrollSpeed6, -scrollSpeed6);
     let scrollSpeedY6 = map(mouseY, 0, height, scrollSpeed6, -scrollSpeed6);
     x6 -= scrollSpeedX6;
     y6 -= scrollSpeedY6;
 
-    // Draw the scrolling collage for img6
+    //  the scrolling collage for img6
     push();
     translate(x6, y6);
     for (let i = 0; i < repetitions; i++) {
         for (let j = 0; j < repetitions; j++) {
             let sx6 = img6.width;
             let sy6 = img6.height;
-            let spacing = 100; // Adjust the spacing between repetitions
+            let spacing = 100; //  the spacing between repetitions
       image(img6, i * (sx6 + spacing), j * (sy6 + spacing), sx6, sy6);
         }
     }
